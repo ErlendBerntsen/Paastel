@@ -1,0 +1,8 @@
+# Project exclude paths
+/languages/file.importer/classes_gen/
+/languages/file.importer/generator/classes_gen/
+/languages/Paastel/classes_gen/
+/languages/Paastel/generator/classes_gen/
+/languages/Paastel_V0/classes_gen/
+/languages/Paastel_V0/generator/classes_gen/
+/solutions/examples/classes_gen/

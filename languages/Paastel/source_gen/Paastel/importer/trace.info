@@ -1,0 +1,121 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<debug-info version="2">
+  <concept fqn="c:f3061a53-9226-4cc5-a443-f952ceaf5816/1068580123155:jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
+  <concept fqn="c:f3061a53-9226-4cc5-a443-f952ceaf5816/1144226303539:jetbrains.mps.baseLanguage.structure.ForeachStatement" />
+  <concept fqn="c:f3061a53-9226-4cc5-a443-f952ceaf5816/1068581242864:jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
+  <concept fqn="c:f3061a53-9226-4cc5-a443-f952ceaf5816/1068580123157:jetbrains.mps.baseLanguage.structure.Statement" />
+  <concept fqn="c:f3061a53-9226-4cc5-a443-f952ceaf5816/1070462154015:jetbrains.mps.baseLanguage.structure.StaticFieldDeclaration" />
+  <concept fqn="c:f3061a53-9226-4cc5-a443-f952ceaf5816/1081236700938:jetbrains.mps.baseLanguage.structure.StaticMethodDeclaration" />
+  <concept fqn="c:f3061a53-9226-4cc5-a443-f952ceaf5816/5351203823916750322:jetbrains.mps.baseLanguage.structure.TryUniversalStatement" />
+  <concept fqn="c:f3061a53-9226-4cc5-a443-f952ceaf5816/1076505808687:jetbrains.mps.baseLanguage.structure.WhileStatement" />
+  <root nodeRef="r:e71d3114-e189-43e5-b6da-32dfac3e0f9d(Paastel.importer)/1798943353419338907">
+    <file name="ImportLogic.java">
+      <node id="9052966408888262893" at="26,118,27,68" concept="2" />
+      <node id="9052966408888247772" at="27,68,28,92" concept="2" />
+      <node id="9052966408888253631" at="29,9,30,72" concept="0" />
+      <node id="7746099007949140235" at="31,107,32,62" concept="0" />
+      <node id="9052966408888263903" at="34,15,35,41" concept="0" />
+      <node id="1798943353419344609" at="39,128,40,0" concept="3" />
+      <node id="5627314751710290546" at="41,80,42,171" concept="2" />
+      <node id="1551871934222880790" at="42,171,43,120" concept="0" />
+      <node id="1551871934222985190" at="43,120,44,118" concept="0" />
+      <node id="5627314751711810869" at="44,118,45,60" concept="2" />
+      <node id="8068072613429057578" at="46,34,47,179" concept="2" />
+      <node id="1551871934224954494" at="47,179,48,133" concept="0" />
+      <node id="5627314751710370610" at="48,133,49,115" concept="0" />
+      <node id="8068072613429185402" at="50,7,51,54" concept="0" />
+      <node id="1798943353419340390" at="52,5,53,0" concept="3" />
+      <node id="1798943353419338907" at="59,0,60,0" concept="4" trace="File$Vm" />
+      <node id="1798943353419338907" at="63,0,64,0" concept="4" trace="name$MnvL" />
+      <node id="1798943353419338907" at="64,0,65,0" concept="4" trace="extension$Y_Hs" />
+      <node id="1798943353419338907" at="65,0,66,0" concept="4" trace="text$f9B0" />
+      <node id="1798943353419338907" at="69,0,70,0" concept="4" trace="fileComponents$qwmK" />
+      <node id="7746099007949131766" at="30,72,33,7" concept="1" />
+      <node id="5627314751710185105" at="45,60,50,7" concept="7" />
+      <node id="9052966408888266665" at="28,92,36,5" concept="6" />
+      <node id="1798943353419338998" at="26,0,38,0" concept="5" trace="importData#(Ljava/lang/String;Lorg/jetbrains/mps/openapi/model/SModel;I)V" />
+      <node id="1798943353419340510" at="40,0,52,5" concept="6" />
+      <node id="9052966408888319626" at="39,0,55,0" concept="5" trace="importDataIntoModel#(Ljava/lang/String;Lorg/jetbrains/mps/openapi/model/SModel;I)V" />
+      <scope id="7746099007949131772" at="31,107,32,62" />
+      <scope id="9052966408888267000" at="34,15,35,41" />
+      <scope id="7746099007949131766" at="30,72,33,7">
+        <var name="sourceRoot" id="7746099007949131768" />
+      </scope>
+      <scope id="5627314751710185107" at="46,34,49,115">
+        <var name="lineOfText" id="8068072613429057581" />
+      </scope>
+      <scope id="9052966408888266667" at="29,9,33,7" />
+      <scope id="1798943353419339001" at="26,118,36,5">
+        <var name="tempModel" id="9052966408888247773" />
+        <var name="temporaryModels" id="9052966408888262894" />
+      </scope>
+      <scope id="1798943353419340512" at="41,80,51,54">
+        <var name="file" id="5627314751710290549" />
+        <var name="iterator" id="5627314751711810870" />
+      </scope>
+      <scope id="1798943353419338998" at="26,0,38,0">
+        <var name="sourceFile" id="1798943353419339058" />
+        <var name="spacesInTabsAndIndent" id="1551871934226535661" />
+        <var name="targetModel" id="1798943353419339097" />
+      </scope>
+      <scope id="9052966408888319629" at="39,128,53,0" />
+      <scope id="9052966408888319626" at="39,0,55,0">
+        <var name="sourceFile" id="9052966408888324736" />
+        <var name="spacesInTabsAndIndent" id="1551871934226536540" />
+        <var name="targetModel" id="9052966408888324738" />
+      </scope>
+      <unit id="1798943353419338907" at="58,0,61,0" name="Paastel.importer.ImportLogic$CONCEPTS" />
+      <unit id="1798943353419338907" at="68,0,71,0" name="Paastel.importer.ImportLogic$LINKS" />
+      <unit id="1798943353419338907" at="62,0,67,0" name="Paastel.importer.ImportLogic$PROPS" />
+      <unit id="1798943353419338907" at="24,0,72,0" name="Paastel.importer.ImportLogic" />
+    </file>
+  </root>
+  <root nodeRef="r:e71d3114-e189-43e5-b6da-32dfac3e0f9d(Paastel.importer)/5627314751709788792">
+    <file name="ImportLogicJson.java">
+      <node id="5627314751709788800" at="23,91,24,68" concept="2" />
+      <node id="5627314751709788804" at="24,68,25,92" concept="2" />
+      <node id="5627314751709788813" at="26,9,27,49" concept="0" />
+      <node id="5627314751709788824" at="28,107,29,62" concept="0" />
+      <node id="5627314751709788831" at="31,15,32,41" concept="0" />
+      <node id="5627314751709788846" at="36,101,37,30" concept="2" />
+      <node id="5627314751709788849" at="37,30,38,0" concept="3" />
+      <node id="5627314751709788852" at="39,72,40,0" concept="3" />
+      <node id="5627314751709788853" at="40,0,41,47" concept="0" />
+      <node id="5627314751709788863" at="42,5,43,0" concept="3" />
+      <node id="5627314751709788864" at="43,0,44,54" concept="2" />
+      <node id="5627314751709788870" at="44,54,45,0" concept="3" />
+      <node id="5627314751709788792" at="51,0,52,0" concept="4" trace="File$Vm" />
+      <node id="5627314751709788817" at="27,49,30,7" concept="1" />
+      <node id="5627314751709788850" at="38,0,42,5" concept="6" />
+      <node id="5627314751709788811" at="25,92,33,5" concept="6" />
+      <node id="5627314751709788840" at="36,0,47,0" concept="5" trace="importDataIntoModel#(Ljava/lang/String;Lorg/jetbrains/mps/openapi/model/SModel;)V" />
+      <node id="5627314751709788794" at="23,0,35,0" concept="5" trace="importData#(Ljava/lang/String;Lorg/jetbrains/mps/openapi/model/SModel;)V" />
+      <scope id="5627314751709788823" at="28,107,29,62" />
+      <scope id="5627314751709788830" at="31,15,32,41" />
+      <scope id="5627314751709788851" at="39,72,41,47" />
+      <scope id="5627314751709788817" at="27,49,30,7">
+        <var name="sourceRoot" id="5627314751709788818" />
+      </scope>
+      <scope id="5627314751709788812" at="26,9,30,7" />
+      <scope id="5627314751709788845" at="36,101,45,0">
+        <var name="element" id="5627314751709788847" />
+        <var name="fileObject" id="5627314751709788865" />
+      </scope>
+      <scope id="5627314751709788799" at="23,91,33,5">
+        <var name="tempModel" id="5627314751709788805" />
+        <var name="temporaryModels" id="5627314751709788801" />
+      </scope>
+      <scope id="5627314751709788840" at="36,0,47,0">
+        <var name="sourceFile" id="5627314751709788841" />
+        <var name="targetModel" id="5627314751709788843" />
+      </scope>
+      <scope id="5627314751709788794" at="23,0,35,0">
+        <var name="sourceFile" id="5627314751709788795" />
+        <var name="targetModel" id="5627314751709788797" />
+      </scope>
+      <unit id="5627314751709788792" at="50,0,53,0" name="Paastel.importer.ImportLogicJson$CONCEPTS" />
+      <unit id="5627314751709788792" at="21,0,54,0" name="Paastel.importer.ImportLogicJson" />
+    </file>
+  </root>
+</debug-info>
+

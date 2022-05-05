@@ -1,0 +1,126 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<debug-info version="2">
+  <concept fqn="c:f3061a53-9226-4cc5-a443-f952ceaf5816/1082113931046:jetbrains.mps.baseLanguage.structure.ContinueStatement" />
+  <concept fqn="c:f3061a53-9226-4cc5-a443-f952ceaf5816/1068580123155:jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
+  <concept fqn="c:f3061a53-9226-4cc5-a443-f952ceaf5816/1144226303539:jetbrains.mps.baseLanguage.structure.ForeachStatement" />
+  <concept fqn="c:f3061a53-9226-4cc5-a443-f952ceaf5816/1068580123159:jetbrains.mps.baseLanguage.structure.IfStatement" />
+  <concept fqn="c:f3061a53-9226-4cc5-a443-f952ceaf5816/1068580123165:jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" />
+  <concept fqn="c:f3061a53-9226-4cc5-a443-f952ceaf5816/1068581242864:jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
+  <concept fqn="c:f3061a53-9226-4cc5-a443-f952ceaf5816/1068581242878:jetbrains.mps.baseLanguage.structure.ReturnStatement" />
+  <concept fqn="c:f3061a53-9226-4cc5-a443-f952ceaf5816/1068580123157:jetbrains.mps.baseLanguage.structure.Statement" />
+  <concept fqn="c:f3061a53-9226-4cc5-a443-f952ceaf5816/1070462154015:jetbrains.mps.baseLanguage.structure.StaticFieldDeclaration" />
+  <concept fqn="c:f3061a53-9226-4cc5-a443-f952ceaf5816/1081236700938:jetbrains.mps.baseLanguage.structure.StaticMethodDeclaration" />
+  <root>
+    <file name="TextGenAspectDescriptor.java">
+      <unit at="54,0,57,0" name="Paastel.textGen.TextGenAspectDescriptor$CONCEPTS" />
+      <unit at="58,0,61,0" name="Paastel.textGen.TextGenAspectDescriptor$PROPS" />
+      <unit at="18,0,62,0" name="Paastel.textGen.TextGenAspectDescriptor" />
+    </file>
+  </root>
+  <root nodeRef="r:21ef25ca-8854-457c-8855-fed03b9b9856(Paastel.textGen)/1551871934222853970">
+    <file name="File_TextGen.java">
+      <node id="1551871934222853970" at="22,54,23,55" concept="5" />
+      <node id="1551871934224191278" at="25,78,26,49" concept="5" />
+      <node id="1551871934224195158" at="27,122,28,19" concept="0" />
+      <node id="1551871934224232112" at="31,143,32,33" concept="1" />
+      <node id="1551871934224253654" at="36,92,37,33" concept="1" />
+      <node id="1551871934224521725" at="41,74,42,45" concept="5" />
+      <node id="1551871934224521949" at="42,45,43,29" concept="1" />
+      <node id="1551871934224517019" at="44,7,45,0" concept="7" />
+      <node id="1551871934222853970" at="50,0,51,0" concept="8" trace="copyOption$5yWd" />
+      <node id="1551871934222853970" at="54,0,55,0" concept="8" trace="replacement$hs8K" />
+      <node id="1551871934222853970" at="55,0,56,0" concept="8" trace="linesOfText$zc_R" />
+      <node id="1551871934222853970" at="56,0,57,0" concept="8" trace="linesOfText$Smbh" />
+      <node id="1551871934222853970" at="57,0,58,0" concept="8" trace="fileComponents$qwmK" />
+      <node id="1551871934222853970" at="61,0,62,0" concept="8" trace="Solution$gn" />
+      <node id="1551871934222853970" at="62,0,63,0" concept="8" trace="Text$5c" />
+      <node id="1551871934224192634" at="26,49,29,9" concept="3" />
+      <node id="1551871934224232112" at="30,122,33,11" concept="2" />
+      <node id="1551871934224253654" at="35,122,38,11" concept="2" />
+      <node id="1551871934224517151" at="40,7,44,7" concept="3" />
+      <node id="1551871934224195206" at="29,9,34,9" concept="3" />
+      <node id="1551871934224235425" at="34,9,39,9" concept="3" />
+      <node id="1551871934224185180" at="24,134,40,7" concept="3" />
+      <node id="1551871934223917383" at="23,55,46,5" concept="2" />
+      <node id="1551871934222853970" at="21,0,48,0" concept="4" trace="generateText#(Ljetbrains/mps/text/rt/TextGenContext;)V" />
+      <scope id="1551871934224192636" at="27,122,28,19" />
+      <scope id="1551871934224232112" at="31,143,32,33" />
+      <scope id="1551871934224253654" at="36,92,37,33" />
+      <scope id="1551871934224517153" at="41,74,43,29">
+        <var name="text" id="1551871934224521728" />
+      </scope>
+      <scope id="1551871934224195208" at="30,122,33,11" />
+      <scope id="1551871934224232112" at="30,122,33,11">
+        <var name="item" id="1551871934224232112" />
+      </scope>
+      <scope id="1551871934224235427" at="35,122,38,11" />
+      <scope id="1551871934224253654" at="35,122,38,11">
+        <var name="item" id="1551871934224253654" />
+      </scope>
+      <scope id="1551871934224185182" at="25,78,39,9">
+        <var name="solution" id="1551871934224191281" />
+      </scope>
+      <scope id="1551871934223917389" at="24,134,45,0" />
+      <scope id="1551871934223917383" at="23,55,46,5">
+        <var name="fileComponent" id="1551871934223917385" />
+      </scope>
+      <scope id="1551871934222853970" at="22,54,46,5">
+        <var name="tgs" id="1551871934222853970" />
+      </scope>
+      <scope id="1551871934222853970" at="21,0,48,0">
+        <var name="ctx" id="1551871934222853970" />
+      </scope>
+      <unit id="1551871934222853970" at="49,0,52,0" name="Paastel.textGen.File_TextGen$PROPS" />
+      <unit id="1551871934222853970" at="60,0,64,0" name="Paastel.textGen.File_TextGen$CONCEPTS" />
+      <unit id="1551871934222853970" at="53,0,59,0" name="Paastel.textGen.File_TextGen$LINKS" />
+      <unit id="1551871934222853970" at="20,0,65,0" name="Paastel.textGen.File_TextGen" />
+    </file>
+    <file name="TextGenAspectDescriptor.java">
+      <node id="1551871934222853970" at="28,38,29,34" concept="6" />
+      <node id="1551871934222853970" at="39,55,40,46" concept="5" />
+      <node id="1551871934222853970" at="40,46,41,49" concept="5" />
+      <node id="1551871934222853970" at="41,49,42,84" concept="1" />
+      <node id="1551871934222853970" at="42,84,43,17" concept="0" />
+      <node id="1551871934222853970" at="47,54,48,26" concept="6" />
+      <node id="1551871934223367884" at="50,59,51,69" concept="6" />
+      <node id="1551871934222853970" at="47,0,50,0" concept="9" trace="getFileName_File#(Lorg/jetbrains/mps/openapi/model/SNode;)Ljava/lang/String;" />
+      <node id="1551871934222853970" at="50,0,53,0" concept="9" trace="getFileExtension_File#(Lorg/jetbrains/mps/openapi/model/SNode;)Ljava/lang/String;" />
+      <node id="1551871934222853970" at="38,58,44,7" concept="3" />
+      <scope id="1551871934222853970" at="28,38,29,34" />
+      <scope id="1551871934222853970" at="47,54,48,26" />
+      <scope id="1551871934222853970" at="50,59,51,69" />
+      <scope id="1551871934222853970" at="47,0,50,0">
+        <var name="node" id="1551871934222853970" />
+      </scope>
+      <scope id="1551871934222853970" at="50,0,53,0">
+        <var name="node" id="1551871934222853970" />
+      </scope>
+      <scope id="1551871934222853970" at="39,55,43,17">
+        <var name="ext" id="1551871934222853970" />
+        <var name="fname" id="1551871934222853970" />
+      </scope>
+    </file>
+  </root>
+  <root nodeRef="r:21ef25ca-8854-457c-8855-fed03b9b9856(Paastel.textGen)/1551871934223377086">
+    <file name="TextGenAspectDescriptor.java">
+      <node id="1551871934223377086" at="30,38,31,34" concept="6" />
+      <scope id="1551871934223377086" at="30,38,31,34" />
+    </file>
+    <file name="Text_TextGen.java">
+      <node id="1551871934223377086" at="14,54,15,55" concept="5" />
+      <node id="1551871934223661164" at="15,55,16,86" concept="1" />
+      <node id="1551871934224203559" at="16,86,17,18" concept="1" />
+      <node id="1551871934223377086" at="21,0,22,0" concept="8" trace="text$f9B0" />
+      <node id="1551871934223377086" at="13,0,19,0" concept="4" trace="generateText#(Ljetbrains/mps/text/rt/TextGenContext;)V" />
+      <scope id="1551871934223377086" at="14,54,17,18">
+        <var name="tgs" id="1551871934223377086" />
+      </scope>
+      <scope id="1551871934223377086" at="13,0,19,0">
+        <var name="ctx" id="1551871934223377086" />
+      </scope>
+      <unit id="1551871934223377086" at="20,0,23,0" name="Paastel.textGen.Text_TextGen$PROPS" />
+      <unit id="1551871934223377086" at="12,0,24,0" name="Paastel.textGen.Text_TextGen" />
+    </file>
+  </root>
+</debug-info>
+
