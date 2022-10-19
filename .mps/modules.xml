@@ -5,6 +5,7 @@
       <modulePath path="$PROJECT_DIR$/languages/Paastel/Paastel.mpl" folder="" />
       <modulePath path="$PROJECT_DIR$/languages/Paastel_V0/Paastel_V0.mpl" folder="" />
       <modulePath path="$PROJECT_DIR$/languages/file.importer/file.importer.mpl" folder="" />
+      <modulePath path="$PROJECT_DIR$/solutions/assignments/assignments.msd" folder="" />
       <modulePath path="$PROJECT_DIR$/solutions/examples/examples.msd" folder="" />
       <modulePath path="$PROJECT_DIR$/solutions/examples2/examples2.msd" folder="" />
       <modulePath path="$PROJECT_DIR$/solutions/gson/gson.msd" folder="" />
