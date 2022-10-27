@@ -1,0 +1,12 @@
+/solutions/examples/
+/solutions/examples/examples.msd
+/solutions/gson/
+/solutions/gson/gson.msd
+/solutions/v0examples/
+/solutions/v0examples/v0examples.msd
+/languages/Paastel_V0/
+/languages/Paastel_V0/Paastel_V0.mpl
+
+classes_gen
+source_gen
+source_gen.caches

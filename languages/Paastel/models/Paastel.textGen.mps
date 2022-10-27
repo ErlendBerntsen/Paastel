@@ -44,7 +44,6 @@
       <concept id="1068580123155" name="jetbrains.mps.baseLanguage.structure.ExpressionStatement" flags="nn" index="3clFbF">
         <child id="1068580123156" name="expression" index="3clFbG" />
       </concept>
-      <concept id="1068580123157" name="jetbrains.mps.baseLanguage.structure.Statement" flags="nn" index="3clFbH" />
       <concept id="1068580123159" name="jetbrains.mps.baseLanguage.structure.IfStatement" flags="nn" index="3clFbJ">
         <child id="1068580123160" name="condition" index="3clFbw" />
         <child id="1068580123161" name="ifTrue" index="3clFbx" />
@@ -78,9 +77,6 @@
       <concept id="1237305208784" name="jetbrains.mps.lang.textGen.structure.NewLineAppendPart" flags="ng" index="l8MVK" />
       <concept id="1237305334312" name="jetbrains.mps.lang.textGen.structure.NodeAppendPart" flags="ng" index="l9hG8">
         <child id="1237305790512" name="value" index="lb14g" />
-      </concept>
-      <concept id="1237305491868" name="jetbrains.mps.lang.textGen.structure.CollectionAppendPart" flags="ng" index="l9S2W">
-        <child id="1237305945551" name="list" index="lbANJ" />
       </concept>
       <concept id="1237306079178" name="jetbrains.mps.lang.textGen.structure.AppendOperation" flags="nn" index="lc7rE">
         <child id="1237306115446" name="part" index="lcghm" />
@@ -342,37 +338,6 @@
                     </node>
                   </node>
                 </node>
-                <node concept="3clFbJ" id="1m9mOPglnIx" role="3cqZAp">
-                  <node concept="3clFbS" id="1m9mOPglnIz" role="3clFbx">
-                    <node concept="lc7rE" id="1m9mOPglsb0" role="3cqZAp">
-                      <node concept="l9S2W" id="1m9mOPglsbm" role="lcghm">
-                        <node concept="2OqwBi" id="1m9mOPglsjV" role="lbANJ">
-                          <node concept="37vLTw" id="1m9mOPglsbG" role="2Oq$k0">
-                            <ref role="3cqZAo" node="1m9mOPglcWL" resolve="solution" />
-                          </node>
-                          <node concept="3Tsc0h" id="1m9mOPglssG" role="2OqNvi">
-                            <ref role="3TtcxE" to="v1jw:4SoffeIR8ml" resolve="linesOfText" />
-                          </node>
-                        </node>
-                      </node>
-                    </node>
-                  </node>
-                  <node concept="2OqwBi" id="1m9mOPglon4" role="3clFbw">
-                    <node concept="2OqwBi" id="1m9mOPglnTv" role="2Oq$k0">
-                      <node concept="37vLTw" id="1m9mOPglnJs" role="2Oq$k0">
-                        <ref role="3cqZAo" node="1m9mOPglcWL" resolve="solution" />
-                      </node>
-                      <node concept="3TrcHB" id="1m9mOPglobi" role="2OqNvi">
-                        <ref role="3TsBF5" to="v1jw:4SoffeITxFu" resolve="transformOption" />
-                      </node>
-                    </node>
-                    <node concept="21noJN" id="1m9mOPgloBE" role="2OqNvi">
-                      <node concept="21nZrQ" id="1m9mOPgloBG" role="21noJM">
-                        <ref role="21nZrZ" to="v1jw:4SoffeITxFm" resolve="KEPT" />
-                      </node>
-                    </node>
-                  </node>
-                </node>
               </node>
               <node concept="2OqwBi" id="1m9mOPglc7U" role="3clFbw">
                 <node concept="2GrUjf" id="1m9mOPglbTa" role="2Oq$k0">
@@ -424,7 +389,6 @@
                 </node>
               </node>
             </node>
-            <node concept="3clFbH" id="1m9mOPgmsur" role="3cqZAp" />
           </node>
         </node>
       </node>

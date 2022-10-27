@@ -143,10 +143,6 @@
       <property role="3tVfz5" value="5627314751708469971" />
       <property role="TrG5h" value="REPLACED" />
     </node>
-    <node concept="25R33" id="4SoffeITxFm" role="25R1y">
-      <property role="3tVfz5" value="5627314751708469974" />
-      <property role="TrG5h" value="KEPT" />
-    </node>
   </node>
   <node concept="1TIwiD" id="4SoffeIU08j">
     <property role="EcuMT" value="5627314751708594707" />
